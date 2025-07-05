@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Validador de Senha</title>
     <link rel="stylesheet" href="./src/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <input type="password" class="password" placeholder="Digite sua senha" />
     <div class="progress">
-        <div class="bar"></div>
+      <div class="bar"></div>
     </div>
     <div class="validator-area">
-        <div class="validator-item low-upper-case">
-            <div class="valid-point"></div>
-            <div class="valid-text">Pelo menos um caractere maiúsculo e um minúsculo.</div>
+      <div class="validator-item low-upper-case">
+        <div class="valid-point"></div>
+        <div class="valid-text">
+          Pelo menos um caractere maiúsculo e um minúsculo.
         </div>
-        <div class="validator-item one-number">
-            <div class="valid-point"></div>
-            <div class="valid-text">Pelo menos um número.</div>
+      </div>
+      <div class="validator-item one-number">
+        <div class="valid-point"></div>
+        <div class="valid-text">Pelo menos um número.</div>
+      </div>
+      <div class="validator-item one-special-char">
+        <div class="valid-point"></div>
+        <div class="valid-text">
+          Pelo menos um caractere especial (!%&@#$*?_).
         </div>
-        <div class="validator-item one-special-char">
-            <div class="valid-point"></div>
-            <div class="valid-text">Pelo menos um caractere especial (!%&@#$*?_).</div>
-        </div>
-        <div class="validator-item min-char">
-            <div class="valid-point"></div>
-            <div class="valid-text">Pelo menos 6 caracteres.</div>
-        </div>
+      </div>
+      <div class="validator-item min-char">
+        <div class="valid-point"></div>
+        <div class="valid-text">Pelo menos 6 caracteres.</div>
+      </div>
     </div>
 
     <script type="text/javascript" src="./src/script.js"></script>
-</body>
-
+  </body>
 </html>

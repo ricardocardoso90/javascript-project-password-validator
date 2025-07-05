@@ -1,47 +1,47 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    background-color: #000;
-    color: #FFF;
-    margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 40px;
 }
 
 input.password {
-    width: 250px;
-    font-size: 17px;
-    padding: 15px 20px;
-    color: #000;
-    outline: none;
+  width: 250px;
+  font-size: 17px;
+  padding: 15px 20px;
+  color: #000;
+  outline: none;
 }
 
 .progress {
-    width: 250px;
-    height: 5px;
+  width: 250px;
+  height: 5px;
 }
 
 .bar {
-    width: 0;
-    height: inherit;
-    background-color: green;
+  width: 0;
+  height: inherit;
+  background-color: green;
 }
 
 .validator-area {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .validator-item {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 5px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
 }
 
 .valid-point {
-    background-color: #FF0000;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
+  background-color: #ff0000;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
 }
