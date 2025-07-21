@@ -23,7 +23,7 @@ passwordInput.addEventListener("keyup", () => {
 
   if (pct === 100) {
     alert("Campo preenchido com sucesso!! Parabéns.");
-  }
+  };
 
   let ruleArea = document.querySelector(".low-upper-case");
   if (passwordInput.value.match(/([a-z].*[A-Z])|([A-Z].*[a-z])/)) {
@@ -32,7 +32,7 @@ passwordInput.addEventListener("keyup", () => {
   } else {
     // renderRule('.low-upper-case', false);
     ruleArea.querySelector(".valid-point").style.backgroundColor = "red";
-  }
+  };
 });
 
 function renderRule(ruleClass, valid) {
@@ -41,4 +41,4 @@ function renderRule(ruleClass, valid) {
     ? "green"
     : "red";
   return valid ? 1 : 0;
-}
+};
